@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private var serviceRateValue: Float = 0.0
+    private var serviceRateValue: Float = 20.0
     
     @IBAction func serviceRate(_ sender: UISlider) {
         serviceRateValue = sender.value
